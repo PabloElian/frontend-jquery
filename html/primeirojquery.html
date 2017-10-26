@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title> Uso de JQuery </title>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript">
+		/*Para usar a biblioteca de JQuery, é necessário usar um caractere especial para fazer a chamada: ($) ou JQuery
+		*/
+		$(document).ready(function(){
+			$('#principal').append('<p>Texto novo</p>');
+			$('#primeiro').click(function(){
+				$('div').append('<h2> Estou aqui </h2>');
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<header>
+	<h1> Página com JQuery</h1>
+</header>
+
+<main>
+	<section id="principal">
+		<div>
+			<button id="primeiro"></button><br>
+
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eveniet cum maxime autem, nam architecto impedit repellat sed voluptates amet aliquid vel optio velit dolorem, laborum minima vitae nobis quaerat.</div>
+			<div>Nam dolorem omnis ab optio suscipit dignissimos nisi officiis voluptatibus, repellendus, provident odit odio id culpa eius cupiditate, recusandae soluta hic mollitia autem unde obcaecati ipsam quibusdam quisquam. Eveniet, nisi.</div>
+			<div>Sunt reprehenderit vero deserunt, deleniti consectetur saepe explicabo doloremque, quo quidem. Sequi dolores eos, qui quam magnam ea obcaecati unde doloremque ipsum voluptates, beatae rem ut vitae! Error, temporibus, ipsum!</div>
+		</div>
+		<div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia officiis officia illum voluptatum nisi laborum, id totam eum molestias earum animi impedit, accusamus repudiandae illo nostrum veniam odio doloremque. Nostrum.</div>
+			<div>Laborum voluptatibus, sed voluptas quisquam asperiores. Magni itaque ipsa architecto similique iure reiciendis dolorum porro iusto modi nisi officia, voluptate necessitatibus labore, exercitationem qui cum fugiat et vitae expedita earum.</div>
+			<div>Sed ea enim ullam quasi deserunt dignissimos quaerat commodi tenetur dolor, modi placeat distinctio exercitationem dolore harum nemo nisi sint! Suscipit possimus iusto incidunt exercitationem dolores optio cum ea voluptatum.</div>
+		</div>
+	</section>
+</main>
+
+</body>
+</html>
